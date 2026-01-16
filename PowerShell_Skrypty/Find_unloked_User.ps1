@@ -1,0 +1,1 @@
+Get-EventLog -LogName | Where-Object {$_.EventID -eq 4767} | Select-Object -Property*

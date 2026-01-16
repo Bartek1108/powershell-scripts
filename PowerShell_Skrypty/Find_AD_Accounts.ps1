@@ -1,0 +1,1 @@
+get-aduser -filter * -Properties * | Select name, departament, mail
