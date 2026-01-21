@@ -1,1 +1,0 @@
-Get-ADUser -Identity bkania -Properties LastLogonName | Select-Object -ExpandProperty LastLogonName
